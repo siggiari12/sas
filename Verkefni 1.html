@@ -64,7 +64,10 @@
 									<h3 class="major">Framkvæmd</h3>
 									<p>Fyrst hlóð ég niður sniðmátinu, bjó til möppu á tölvunni sem ég kallaði <i>Vefsíða</i> og færði öll gögnin inn í hana. Næst opnaði ég möppuna með Phoenix Code og byrjaði að fikta. Þegar ég byrjaði á þessu verkefni hafði
 									ég enga reynslu á því að kóða í HTML en þar sem ég hafði tilbúið sniðmát, live editing og internetið var það auðveldara en ég átti von á. Ég byrjaði á því að fínpússa forsíðuna, tók út allt
-									það sem ég ætlaði ekki að nota og skrifaði stutta kynningu á mér undir <a href="index.html">Um mig</a>. Þar bætti ég við prófíl mynd og setti inn ferilskránna mína og smá contact info. </p>
+									það sem ég ætlaði ekki að nota og skrifaði stutta kynningu á mér undir <a href="index.html">Um mig</a>. Þar bætti ég við prófíl mynd og setti inn ferilskránna mína og smá contact info. Auk þess langaði mig að bæti við ferilskránni minni 
+										þannig að hún yrði aðgengileg sem PDF skrá. Eftir smá leit á netinu komst ég að því hvernig best væri að gera það. Eg hlóð niður skránni í Phoenix Code verkefnið og notaði eftirfarandi kóða: </p>
+									<pre><code>&lt;embed&gt; style="height: 90vh; width: 100%;" src="assets/Sigurdur_CV.pdf" type="" &lt;/embed&gt;</code></pre>
+									
 
 									<p>Næst á dagskrá var að birta heimasíðuna á <b><a href = "https://github.com/">Github</a></b>. Þar bjó ég mér til aðgang og fór svo að búa til vefslóð fyrir vefsíðuna mína.</p>
 									
@@ -78,7 +81,21 @@
 									<p>Hér valdi ég nafn fyrir síðuna og hakaði við <i>Public</i> svo að ég gæti birt hana öðrum. Að lokum smellti ég á <i>Create repository</i>.</p>
 									<p></p>
 									<h4 class="major">Skref 3</h4>
-									<p>Ég sótti <b><a src="https://git-scm.com/downloads">Git Bash</a></b> á tölvuna mína og opnaði svo möppuna <i>Vefsíða</i> með Git Bash með því að hægri smella á möppuna og velja </p>
+									<p>Ég sótti <b><a src="https://git-scm.com/downloads">Git Bash</a></b> á tölvuna mína og opnaði svo möppuna <i>Vefsíða</i> með Git Bash með því að hægri smella á möppuna og velja "open Git Bash here". Þá opnaðist lítill Terminal gluggi
+									þar sem hægt var að setja inn skipanir. Skref fyrir skref leiðbeiningar um uppsetningu á github og Git Bash voru gefnar í kennslumyndbandi. Eftirfarandi skipanir voru notaðar:</p>
+									<pre><code>git init
+git remote add origin https://siggiari12.github.io/sas/
+git add .
+git commit -m "Inital commit"
+git push -u origin main
+</code></pre>
+									<p>Með þessum skipunum var svo búið að setja setja inn allar skrárnar inn í repositoryið á github, þá gat ég fundið síðuna undir "pages".</p>
+									<li><a href="https://m.youtube.com/watch?v=tRZGeaHPoaw" class="button fit">Kennslumyndband fyrir git bash</a></li>
+									<p></p>
+									<h3 class="major">Lokaorð</h3>
+									<p>Það sem ég vil fá út úr áfanganum er raunverulega upplifun og skilning á framleiðslu hluta. Þar sem námið hefur hingað til verið bóklegt að mestu leyti er ég spenntur að fá að nýta fræðilega bakgrunninn minn til að skapa eitthvað 
+									með FabLab græjunum.</p> 
+									<p>Sem lokaverkefni þætti mér skemmtilegt að búa eitthvað til sem gæti nýst mér í daglegu lífi, t.d. eitthvað tengt mínum áhugamálum. Ég þarf að leggja smá púður í að finna hvað það gæti verið og leggja mér skorður og stærð og efnisgerð.</p>  
 								</div>
 							</div>
 					</section>
